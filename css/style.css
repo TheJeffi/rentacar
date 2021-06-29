@@ -159,6 +159,7 @@
 
 #mc-review{
    height: 80vh;
+   overflow: scroll;
 }
 
 /* KEYFRAMES BLOCK */
