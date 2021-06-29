@@ -64,7 +64,11 @@ body {
    width: 100%;
    height: 100%;
 }
+/* REVIEW BLOCK */
 
+#mc-review{
+   height: 80vh;
+}
 /* MEDIA BLOCK */
 
 @media(max-width: 568px)
