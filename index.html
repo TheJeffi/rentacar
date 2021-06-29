@@ -9,7 +9,7 @@
    <link rel="stylesheet" href="css/footer.css">
    <title>Document</title>
 </head>
-<body class="bg-dark">
+<body class="body">
 
    <!-- HEADER -->
 
@@ -21,6 +21,7 @@
          </a>
          <ul class="nav nav-pills fw-bolder">
            <li class="nav-item"><a href="index.html" class="nav-link active" aria-current="page">Главная</a></li>
+           <li class="nav-item"><a href="app.html" class="nav-link">Приложение</a></li>
            <li class="nav-item"><a href="cars.html" class="nav-link">Наши машины</a></li>
            <li class="nav-item"><a href="price.html" class="nav-link">Тарифы</a></li>
            <li class="nav-item"><a href="about.html" class="nav-link">О нас</a></li>
@@ -34,49 +35,19 @@
    <!-- MAIN BLOCK -->
 
 <main>
-   <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-     <div class="carousel-indicators">
-       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-     </div>
-     <div class="carousel-inner">
-       <div class="carousel-item carousel-item-1 active">
-         <div class="container">
-           <div class="carousel-caption text-start text-light-50">
-             <h1>Информация о машине?Легко!</h1>
-             <p>В приложении вы сможете узнать текущее состояние машины и количество топлива</p>
-             <p><a class="btn btn-lg btn-primary" href="#">Скачать сейчас</a></p>
-           </div>
-         </div>
-       </div>
-       <div class="carousel-item carousel-item-2"> 
-         <div class="container">
-           <div class="carousel-caption text-light-50">
-             <h1>Поиск машины - это просто!</h1>
-             <p>В приложении встроены карты,на которых вы легко найдете ваш автомобиль!</p>
-             <p><a class="btn btn-lg btn-primary" href="#">Скачать сейчас</a></p>
-           </div>
-         </div>
-       </div>
-       <div class="carousel-item carousel-item-3">
-         <div class="container">
-           <div class="carousel-caption text-end text-light-50">
-             <h1>Аренда - проще покупки</h1>
-             <p>Арендовать машину в приложении проще и быстрее,чем покупать собственную!</p>
-             <p><a class="btn btn-lg btn-primary" href="#">Скачать сейчас</a></p>
-           </div>
-         </div>
-       </div>
-     </div>
-     <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-       <span class="visually-hidden">Предыдущий</span>
-     </button>
-     <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-       <span class="carousel-control-next-icon" aria-hidden="true"></span>
-       <span class="visually-hidden">Следующий</span>
-     </button>
+   <video autoplay loop muted class="bgvideo" id="bgvideo">
+      <source src="img/для сайта.mp4" type="video/mp4"></source>
+   </video>
+   <div class="container text-center main text-light">
+      <div>
+      <h1>Добро пожаловать в Rent a Car!</h1>
+      <h2>Наша компания поможет вам добраться в любое место города!</h2>
+      <h3>Скачайте наше приложение,чтобы начать аренду автомобиля</h3>
+
+      <p class="d-flex align-items-center justify-content-center mt-5">
+         <a class="btn btn-lg btn-primary" href="app.html">Скачать приложение</a>
+      </p>
+      </div>
    </div>
 </main>
 
