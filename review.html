@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/header.css">
+   <link rel="stylesheet" href="css/footer.css">
+   <title>Document</title>
+</head>
+<body class="bg-light">
+
+   <!-- HEADER -->
+<div class="bg-dark">
+   <div class="container">
+      <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+         <a href="index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-light text-decoration-none">
+           <img class="logo-img" src="img/logopng.png" alt="">
+           <span class="fs-4 fw-bold">Rent a Car</span>
+         </a>
+         <ul class="nav nav-pills fw-bolder">
+           <li class="nav-item"><a href="index.html" class="nav-link" aria-current="page">Главная</a></li>
+           <li class="nav-item"><a href="cars.html" class="nav-link">Наши машины</a></li>
+           <li class="nav-item"><a href="price.html" class="nav-link">Тарифы</a></li>
+           <li class="nav-item"><a href="about.html" class="nav-link">О нас</a></li>
+           <li class="nav-item"><a href="review.html" class="nav-link active">Отзывы</a></li>
+         </ul>
+       </header>
+   </div>
+</div>
+   <!-- END HEADER -->
+
+   <!-- MAIN BLOCK -->
+
+<main>
+<div class="container">
+   <div class="col-lg-6 col-md-8 mx-auto text-center mb-5">
+      <h3 class="aboutus-title text-black-50">Rent a Car заботится о комфорте пользователей!</h3>
+      <p class="aboutus-text text-black-50">Ниже вы можете оставить свой отзыв о нашем сервисе</p>
+     </div>
+   <div id="mc-review"></div>
+   <script type="text/javascript">
+   cackle_widget = window.cackle_widget || [];
+   cackle_widget.push({widget: 'Review', id: 77629});
+   (function() {
+       var mc = document.createElement('script');
+       mc.type = 'text/javascript';
+       mc.async = true;
+       mc.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://cackle.me/widget.js';
+       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(mc, s.nextSibling);
+   })();
+   </script>
+</div>
+</div>
+</main>
+
+<!-- END MAIN BLOCK -->
+
+<!-- FOOTER -->
+<div class="bg-dark">
+<div class="container">
+<footer class="footer border-top mt-4 p-4">
+      <div class="row">
+         <div class="col-lg-9 d-flex align-items-center">
+            <span class="footer-text">Наши медиа:</span>
+            <span class="footer-social d-inline-flex align-items-center pb-1">
+               <a target="_blank" href="https://www.facebook.com/" class="social-link">
+                  <img src="img/Social network/Facebook.svg" alt="facebook">
+               </a>
+               <a target="_blank" href="https://twitter.com/" class="social-link">
+                  <img src="img/Social network/Twitter.svg" alt="twitter">
+               </a>
+               <a target="_blank" href="https://www.instagram.com/jagermeistr/" class="social-link">
+                  <img src="img/Social network/Instagram.svg" alt="instagram">
+               </a>
+            </span>
+         </div>
+         <div class="col-xl-3 col-lg-3 d-flex justify-content-lg-end mt-4 mt-lg-0">
+            <a href="https://vk.com/thejagermeister" target="_blank" class="footer-link">© 2021 Bogdan Seryakov</a>
+         </div>
+</footer>
+</div>
+</div>
+
+<!-- END FOOTER -->
+
+<!-- SCRIPTS -->
+
+<script src="js/bootstrap.bundle.min.js"></script>
+
+<!-- END SCRIPTS -->
+</body>
+</html>
