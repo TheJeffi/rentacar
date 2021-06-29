@@ -1,0 +1,87 @@
+body {
+   text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+   box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+ }
+
+/* CAROUSEL SETTIGNS */
+.carousel {
+ }
+ .carousel-caption {
+   bottom: 3rem;
+   z-index: 10;
+ }
+ 
+ .carousel-item {
+   height: 80vh;
+ }
+ .carousel-item > img {
+   position: absolute;
+   top: 0;
+   left: 0;
+   min-width: 100%;
+   height: 32rem;
+ }
+ .carousel-item-1{
+    background: url("../img/carousel/slide1.jpg") no-repeat top;
+    background-size: cover;
+ }
+ .carousel-item-2{
+   background: url("../img/carousel/slide2.png") no-repeat top;
+   background-size: cover;
+}
+.carousel-item-3{
+   background: url("../img/carousel/slide3.jpg") no-repeat top;
+   background-size: cover;
+}
+
+/*END CAROUSEL SETTIGNS */
+
+/* PRICE BLOCK */
+
+.carousel-item-price-1{
+   background: url("../img/carousel-price/slide1.jpg") no-repeat top 70% right;
+   background-size: cover;
+}
+.carousel-item-price-2{
+   background: url("../img/carousel-price/slide2.jpg") no-repeat top 70% right;
+   background-size: cover;
+}
+.carousel-item-price-3{
+   background: url("../img/carousel-price/slide3.jpeg") no-repeat top 50% right;
+   background-size: cover;
+}
+
+/* CARS BLOCK */
+
+.wrapper-title-cars{
+   background:#B4D1E0 url("../img/cars/img1.png") no-repeat top 5% left -10%;
+   background-size: contain;
+}
+
+/* ABOUT BLOCk */
+
+.bd-placeholder-img img{
+   width: 100%;
+   height: 100%;
+}
+
+/* MEDIA BLOCK */
+
+@media(max-width: 568px)
+{
+   .nav{
+      display: flex;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+   }
+   .footer-media{
+      display: flex;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+   }
+   .carousel-caption{
+      text-align:center!important;
+   }
+}

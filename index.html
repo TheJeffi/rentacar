@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/header.css">
+   <link rel="stylesheet" href="css/footer.css">
+   <title>Document</title>
+</head>
+<body class="bg-dark">
+
+   <!-- HEADER -->
+
+   <div class="container">
+      <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+         <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-light text-decoration-none">
+           <img class="logo-img" src="img/logopng.png" alt="">
+           <span class="fs-4 fw-bold">Rent a Car</span>
+         </a>
+         <ul class="nav nav-pills fw-bolder">
+           <li class="nav-item"><a href="index.html" class="nav-link active" aria-current="page">Главная</a></li>
+           <li class="nav-item"><a href="cars.html" class="nav-link">Наши машины</a></li>
+           <li class="nav-item"><a href="price.html" class="nav-link">Тарифы</a></li>
+           <li class="nav-item"><a href="about.html" class="nav-link">О нас</a></li>
+         </ul>
+       </header>
+   </div>
+
+   <!-- END HEADER -->
+
+   <!-- MAIN BLOCK -->
+
+<main>
+   <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+     <div class="carousel-indicators">
+       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+     </div>
+     <div class="carousel-inner">
+       <div class="carousel-item carousel-item-1 active">
+         <div class="container">
+           <div class="carousel-caption text-start text-light-50">
+             <h1>Информация о машине?Легко!</h1>
+             <p>В приложении вы сможете узнать текущее состояние машины и количество топлива</p>
+             <p><a class="btn btn-lg btn-primary" href="#">Скачать сейчас</a></p>
+           </div>
+         </div>
+       </div>
+       <div class="carousel-item carousel-item-2"> 
+         <div class="container">
+           <div class="carousel-caption text-light-50">
+             <h1>Поиск машины - это просто!</h1>
+             <p>В приложении встроены карты,на которых вы легко найдете ваш автомобиль!</p>
+             <p><a class="btn btn-lg btn-primary" href="#">Скачать сейчас</a></p>
+           </div>
+         </div>
+       </div>
+       <div class="carousel-item carousel-item-3">
+         <div class="container">
+           <div class="carousel-caption text-end text-light-50">
+             <h1>Аренда - проще покупки</h1>
+             <p>Арендовать машину в приложении проще и быстрее,чем покупать собственную!</p>
+             <p><a class="btn btn-lg btn-primary" href="#">Скачать сейчас</a></p>
+           </div>
+         </div>
+       </div>
+     </div>
+     <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+       <span class="visually-hidden">Предыдущий</span>
+     </button>
+     <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+       <span class="carousel-control-next-icon" aria-hidden="true"></span>
+       <span class="visually-hidden">Следующий</span>
+     </button>
+   </div>
+</main>
+
+<!-- END MAIN BLOCK -->
+
+<!-- FOOTER -->
+
+<div class="container">
+<footer class="footer border-top mt-4 p-4">
+      <div class="row">
+         <div class="col-lg-9 d-flex align-items-center">
+            <span class="footer-text">Наши медиа:</span>
+            <span class="footer-social d-inline-flex align-items-center pb-1">
+               <a target="_blank" href="https://www.facebook.com/" class="social-link">
+                  <img src="img/Social network/Facebook.svg" alt="facebook">
+               </a>
+               <a target="_blank" href="https://twitter.com/" class="social-link">
+                  <img src="img/Social network/Twitter.svg" alt="twitter">
+               </a>
+               <a target="_blank" href="https://www.instagram.com/jagermeistr/" class="social-link">
+                  <img src="img/Social network/Instagram.svg" alt="instagram">
+               </a>
+            </span>
+         </div>
+         <div class="col-xl-3 col-lg-3 d-flex justify-content-lg-end mt-4 mt-lg-0">
+            <a href="https://vk.com/thejagermeister" target="_blank" class="footer-link">© 2021 Bogdan Seryakov</a>
+         </div>
+</footer>
+</div>
+
+<!-- END FOOTER -->
+
+<!-- SCRIPTS -->
+
+<script src="js/bootstrap.bundle.min.js"></script>
+
+<!-- END SCRIPTS -->
+</body>
+</html>

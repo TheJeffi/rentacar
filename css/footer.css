@@ -1,0 +1,33 @@
+.footer{
+   padding-top: 25px;
+   padding-bottom: 20px;
+   color: #fff;
+}
+.social-link{
+   text-decoration: none;
+   margin-left: 15px;
+   position: relative;
+}
+.social-link img {
+   transition: all 1s ease-out;
+}
+      
+.social-link img:hover{
+   transform: scale(1.2);
+}
+.footer-text{
+   color: #fff;
+   font-size: 14px;
+   line-height: 20px;
+   margin-bottom: 5px;
+
+}
+
+.footer-link{
+   text-decoration: none;
+   color: #fff;
+   transition: 1s ease-out;
+}
+.footer-link:hover{
+   color: #777;
+}
