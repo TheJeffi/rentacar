@@ -148,6 +148,13 @@
 .about-anim{
    animation: anim-load 3.5s forwards;
 }
+.about-anim-3{
+   animation: btn-anim 5s forwards;
+}
+.about-anim-2{
+   transform: translateY(-150%);
+   animation: anim-load 4s forwards;
+}
 /* REVIEW BLOCK */
 
 #mc-review{
@@ -165,8 +172,15 @@
    100% {font-size: 16px;}
  }
  @keyframes btn-anim {
-   0% {transform: translateY(150%);}
-   100% {transform: translateY(0);}
+   0% {
+      transform: translateY(150%);
+      opacity: 0;
+      }
+   50%{opacity:0;}
+   100% {
+      transform: translateY(0);
+      opacity: 1;
+      }
  }
 
 
